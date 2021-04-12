@@ -13,7 +13,7 @@ public class HeroApplication {
 	@RequestMapping("/")
 	@ResponseBody
 	String home() {
-		return "Hello World from String Boot on Heroku";
+		return "Hello World from String Boot on Heroku Ugrade to SDK 11";
 	}
 
 	public static void main(String[] args) {
